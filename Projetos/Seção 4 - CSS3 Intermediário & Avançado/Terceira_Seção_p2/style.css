@@ -1,0 +1,40 @@
+body {
+
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+table {
+
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td {
+
+    padding: 7px;
+}
+
+th {
+
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr:nth-child(odd):not(:first-child) {
+
+    background-color: #efefef;
+}
+
+tr :nth-child(3) {
+
+    text-align: right;
+}
+
+tr:hover:not(:first-child) {
+
+    background-color: #c3e6e5;
+}

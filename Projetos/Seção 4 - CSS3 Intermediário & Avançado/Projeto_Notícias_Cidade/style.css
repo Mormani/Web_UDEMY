@@ -1,0 +1,291 @@
+/* Definições Gerais */
+
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    background: #fff url(img/fundo.png) repeat-x top left;
+}
+
+header, main, footer {
+
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+
+    height: 150px;
+    padding-top: 25px;
+    background: url(img/detalhe-topo.png) no-repeat right top;
+}
+
+#logo {
+
+    width: 152px;
+    height: 66px;
+    background: url(img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+    /* Barra de Navegação */
+
+ul {
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav#navegacao > ul {
+
+    float: left;
+    margin-top: 30px;
+    background: #b10333;
+}
+
+nav#navegacao > ul li{
+
+    float: left;
+}
+
+nav#navegacao > ul li > a {
+
+    display: block;
+    padding: 0.5em 1.5em;
+    background: url(img/divisor.png) repeat-y left center;
+    font-size: 0.9em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#navegacao > ul li:first-child > a {
+
+    background-image: none;
+}
+
+nav#navegacao > ul li > a:hover {
+
+    color: #1560ff;
+}
+
+nav#navegacao > ul li > a.active {
+
+    background-color: #de003e;
+}
+
+/* Corpo */
+
+    /* Definições Gerais */
+
+main {
+
+    margin-top: 60px;
+}
+
+h2 {
+
+    padding: 5px;
+    background-color: #294c71;
+    font-size: 1em;
+    color: white;
+}
+
+.caixa {
+
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #f3f3f3 url(img/fundo-caixa.png);
+}
+
+section#primeiro > div.caixa > div.noticia,
+section#segundo > div.caixa > div.noticia,
+aside > div.caixa > div#entrevista {
+
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+section#primeiro > div.caixa > div.noticia > p > a,
+section#segundo > div.caixa > div.noticia > p > a {
+
+    color: #b10333;
+}
+
+    /* Seções */
+
+main > section#primeiro {
+
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+}
+
+div.noticia {
+
+    background-color: white;
+}
+
+div > h3 {
+
+    display: inline;
+    padding: 3px;
+    margin: 10px 0;
+    background-color: #b10333;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 + img {
+
+    display: block;
+    width: 98%;
+    border: 2px solid #dfdfdf;
+}
+
+ul#listaNoticia li {
+
+    height: 62px;
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul#listaNoticia li:last-child {
+
+    border-bottom: none;
+}
+
+ul#listaNoticia li > a > img {
+
+    float: left;
+    width: 80px;
+    margin: 5px;
+}
+
+ul#listaNoticia li > a {
+    
+    text-decoration: none;
+}
+
+ul#listaNoticia li > a h3 {
+
+    padding: 0;
+    font-size: 0.8em;
+    color: #3e7ab9;
+}
+
+ul#listaNoticia li > a p {
+
+    font-size: 0.7em;
+}
+
+ul#listaNoticia li:hover {
+
+    background: #eee;
+    cursor: pointer;
+}
+
+main#duas-colunas > section#primeiro {
+
+    width: 555px;
+}
+
+main#uma-coluna > section#primeiro {
+
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+main > section#segundo {
+    
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+    
+}
+
+    /* Menu Lateral */
+
+aside {
+    
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+}
+
+div#entrevista ul li > a {
+    
+    display: block;
+    padding: 3px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 0.9em;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+div#entrevista ul li:last-child > a {
+    
+    border-bottom: none;
+}
+
+div#entrevista ul li > a:hover {
+
+    padding-left: 20px;
+    background: #f9f9f9 url(img/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+}
+
+div#news label {
+
+    display: block;
+    cursor: pointer;
+}
+
+div#news form {
+
+    padding: 5px;
+    margin-top: 10px;
+    background: white;
+}
+
+div#news form input {
+    
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+div#news form button {
+
+    width: 80px;
+    padding: 5px;
+    border: 2px solid #870529;
+    background-color: #b10333;
+    color: white;
+}
+
+footer {
+
+    clear: both;
+    width: 100%;
+    padding: 20px;
+    background-color: #294c71;
+    color: white;
+}
+
+footer p {
+
+    width: 750px;
+    margin: 0 auto;
+}

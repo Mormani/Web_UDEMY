@@ -1,0 +1,64 @@
+body {
+
+    background: #643d87 url(img/fundo.jpg) no-repeat top center;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+#container {
+
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+}
+
+#container img {
+
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input {
+
+    height: 40px;
+    width: 80%;
+    padding-left: 40px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    font-size: 18px;
+}
+
+input#email {
+
+    background-image: url(img/icone-usuario.png);
+}
+
+input#senha {
+
+    background-image: url(img/icone-cadeado.png);
+}
+
+input#submit {
+
+    width: 90%;
+    height: 45px;
+    padding: 5px 20px;
+    border: 2px solid #db7d00;
+    background-color: #f79300;
+    color: #fff;
+
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}

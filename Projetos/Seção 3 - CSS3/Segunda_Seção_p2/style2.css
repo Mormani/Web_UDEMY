@@ -1,0 +1,32 @@
+body{
+
+    background-color: #f4f4f4;
+}
+
+#principal {
+
+    width: 920px;
+}
+
+.noticia {
+
+    background-color: #e5e5e5;
+    margin: 7px;
+    padding: 5px;
+    width: 280px;
+    float: left;
+}
+
+.img-galeria {
+
+    background-color: white;
+    width: 265px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+}
+
+.clear {
+
+    clear: both;
+}
